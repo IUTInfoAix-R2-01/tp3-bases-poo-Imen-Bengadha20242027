@@ -1,10 +1,11 @@
 package bibliotheque;
 
 
+
 	public class TestMain {
 		   public static void main(String[] args) {
 		      // Test constructor and toString()
-		      Employee e1 = new Employee(8, "Peter", "Tan", 2500);
+		      Employe e1 = new Employe(8, 2500, "Tan", "Peter");
 		      System.out.println(e1);  // toString();
 
 		      // Test Setters and Getters
